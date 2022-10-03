@@ -1,0 +1,26 @@
+package ClasePractica;
+
+import java.util.Scanner;
+
+public class SobreCargaDeMetodos {
+    static Scanner lector = new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("El area lateral del prisma es: "+ calcularAreaLateralPrisma());
+		
+	}
+	private static double calcularAreaLateralPrisma() {
+		double n, l, h, areaLateral;
+		System.out.println("Ingrese n = ");
+		n = lector.nextInt();
+		System.out.println("Ingrese l = ");
+		l = lector.nextInt();
+		System.out.println("Ingrese h = ");
+		h = lector.nextInt();
+		
+		areaLateral = n * l * h;
+		
+		return areaLateral;
+		
+	}
+
+}

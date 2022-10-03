@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\JADPA-27\Desktop\lunes03102022\.metadata\.plugins\org.eclipse.jdt.core
+2371572968.index
+1865797976.index
+1372677264.index

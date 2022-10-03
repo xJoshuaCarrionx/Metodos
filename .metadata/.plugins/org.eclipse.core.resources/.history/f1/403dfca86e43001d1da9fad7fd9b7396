@@ -1,0 +1,35 @@
+package ClasePractica;
+
+import java.util.Scanner;
+
+public class EjemplosdeLosMetodos {
+
+	public static void main(String[] args) {
+		Scanner lector = new Scanner(System.in);
+		//metodo A no quiere datos de entrada y no devuelve valor
+		metodoA();
+		//metodo B quiere datos de entrada y no devuelve valor
+		metodoB(3.2,5.0,8);
+		double a = 9.3, b = 7.5;
+		int c = 5;
+		metodoB(a,b,c);
+		System.out.print(" a = ");
+		a = lector.nextDouble();
+		System.out.print(" b = ");
+		b = lector.nextDouble();
+		System.out.print(" c = ");
+		c = lector.nextInt();
+		metodoB(a,b,c);
+     }
+	
+	private static void metodoA() {
+	   int valorA = 7, valorB = 8;
+   	     System.out.println("la suma de "+ valorA + " y " + valorB + " es " + (valorA+valorB));
+		
+     }
+	private static void metodoB (double varA, double varB, int varC) {
+		double resultado = (varA + varB)/(1 + varC);
+		System.out.println("El resultado es = " + resultado);
+		
+	}
+}

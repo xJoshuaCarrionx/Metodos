@@ -1,0 +1,19 @@
+package ClasePractica;
+
+public class EjemplosdeLosMetodos {
+
+	public static void main(String[] args) {
+		
+     }
+	
+	private static void metodoA() {
+	   int valorA = 7, valorB = 8;
+   	     System.out.println("la suma de "+ valorA + " y " + valorB + " es " + (valorA+valorB));
+		
+     }
+	private static void metodoB (double varA, double varB, int varC) {
+		double resultado = (varA + varB)/(1 + varC);
+		System.out.println("El resultado es = " + resultado);
+		
+	}
+}
